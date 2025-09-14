@@ -53,3 +53,29 @@ Section:Button({
 	end,
 })
 ```
+
+### Create Slider
+```lua
+Section:Slider({
+	Title = "Slider",
+	Desc = "This is Slider",
+	Value = 10,
+	Min = 1,
+	Max = 100,
+	Rounding = 2,
+	Call = function(value)
+		print(value)
+	end,
+})
+```
+
+### Create Slider
+```lua
+Section:Textfield({
+	Title = "Textfield",
+	Desc = "This is Textfield",
+	Value = "Hello",
+	Holder = "Waiting ...",
+	Call = print,
+})
+```
