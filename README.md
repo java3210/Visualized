@@ -6,6 +6,7 @@ local Visualized = loadstring(game:HttpGet('https://github.com/java3210/Visualiz
 ```lua
 local Window = Visualized.new({
 	Title = "Synapse X",
+	Constant = "YOUR CONSTANT HERE"
 })
 ```
 
