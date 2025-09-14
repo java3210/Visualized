@@ -95,3 +95,14 @@ List:Clear()
 List:Clear(<string>)
 List:AddList(<string>)
 ```
+
+### Create Paragarp
+```lua
+Section2:Paragarp({
+	Title = "Paragarp",
+	Desc = "This is Paragarp",
+})
+
+Paragarp:SetTitle(<string>)
+Paragarp:SetDesc(<string>)
+```
