@@ -26,3 +26,7 @@ Tabs:PageTitle({
 })
 ```
 
+## Create Section
+```lua
+local Section = Tabs.new()
+```
