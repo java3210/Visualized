@@ -40,7 +40,7 @@ Section:Toggle({
 	Call = print
 })
 
-Toggle:SetValue(boolean)
+Toggle:SetValue(<boolean>)
 ```
 
 ### Create Button
@@ -69,7 +69,7 @@ Section:Slider({
 })
 ```
 
-### Create Slider
+### Create Textfield
 ```lua
 Section:Textfield({
 	Title = "Textfield",
@@ -78,4 +78,20 @@ Section:Textfield({
 	Holder = "Waiting ...",
 	Call = print,
 })
+```
+
+### Create List
+```lua
+Section:List({
+	Title = "Dropdown",
+	List = {"Apple", "Banana", "Melon"},
+	Value = {"Apple", "Banana"},
+	Call = function(v)
+		print(v)
+	end,
+})
+
+List:Clear()
+List:Clear(<string>)
+List:AddList(<string>)
 ```
