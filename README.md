@@ -17,3 +17,12 @@ local Tabs = Window:Add({
 	Icon = 103207517628191
 })
 ```
+
+## Create Page Title
+```lua
+Tabs:PageTitle({
+	Title = "Search engine",
+	Desc = "The search engine you choose will be used for features like searching from the address bar and from images on web pages. Learn more"
+})
+```
+
