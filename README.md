@@ -32,6 +32,22 @@ Tabs:PageTitle({
 local Section = Tabs.new()
 ```
 
+## Create Line
+```lua
+Section:Line()
+```
+
+# Example [ How to Disable Line at End ]
+```lua
+Section:Toggle({
+	Title = "Toggle",
+	Desc = "This is Toggle",
+	Value = false,
+	DisbleLine = true, -- Disbled Line
+	Call = print
+})
+```
+
 ### Create Toggle
 ```lua
 Section:Toggle({
