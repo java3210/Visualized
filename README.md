@@ -30,3 +30,15 @@ Tabs:PageTitle({
 ```lua
 local Section = Tabs.new()
 ```
+
+### Create Toggle
+```lua
+Section:Toggle({
+	Title = "Toggle",
+	Desc = "This is Toggle",
+	Value = false,
+	Call = print
+})
+
+Toggle:SetValue(boolean)
+```
