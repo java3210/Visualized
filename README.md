@@ -42,3 +42,14 @@ Section:Toggle({
 
 Toggle:SetValue(boolean)
 ```
+
+### Create Button
+```lua
+Section:Button({
+	Title = "Button",
+	Desc = "This is Button",
+	Call = function()
+		print('Click')
+	end,
+})
+```
