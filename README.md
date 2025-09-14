@@ -124,7 +124,7 @@ Paragarp:SetTitle(<string>)
 Paragarp:SetDesc(<string>)
 ```
 
-### Full Example
+# Full Example
 ```lua
 local Visualized = loadstring(game:HttpGet('https://github.com/java3210/Visualized/blob/main/main/dowload.lua?raw=true', true))()
 
