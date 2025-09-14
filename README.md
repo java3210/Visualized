@@ -8,3 +8,12 @@ local Window = Visualized.new({
 	Title = "Synapse X",
 })
 ```
+
+## Create Tabs
+```lua
+local Tabs = Window:Add({
+	Title = "General",
+	Desc = "Event, Thread, Constant",
+	Icon = 103207517628191
+})
+```
